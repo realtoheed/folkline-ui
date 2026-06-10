@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utilities — Folkline UI</title>
+  <link rel="stylesheet" href="../dist/folkline.min.css" />
+  <style>
+    body { background: #f9fafb; padding: 2rem; }
+    .demo-box { background: white; padding: 2rem; margin-bottom: 2rem; border-radius: 0.5rem; }
+    .color-swatch { display: inline-block; width: 2rem; height: 2rem; border-radius: 0.375rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Utility Classes</h1>
+
+    <div class="demo-box">
+      <h2>Text Colors</h2>
+      <div class="flex-demo">
+        <span class="text-primary">Primary</span>
+        <span class="text-secondary">Secondary</span>
+        <span class="text-success">Success</span>
+        <span class="text-danger">Danger</span>
+        <span class="text-warning">Warning</span>
+        <span class="text-info">Info</span>
+        <span class="text-dark">Dark</span>
+      </div>
+    </div>
+
+    <div class="demo-box">
+      <h2>Background Colors</h2>
+      <div class="flex-demo">
+        <span class="bg-primary color-swatch"></span>
+        <span class="bg-secondary color-swatch"></span>
+        <span class="bg-success color-swatch"></span>
+        <span class="bg-danger color-swatch"></span>
+        <span class="bg-warning color-swatch"></span>
+        <span class="bg-info color-swatch"></span>
+        <span class="bg-dark color-swatch"></span>
+      </div>
+    </div>
+
+    <div class="demo-box">
+      <h2>Spacing</h2>
+      <div class="d-flex gap-2">
+        <div class="p-1 bg-light rounded">p-1</div>
+        <div class="p-2 bg-light rounded">p-2</div>
+        <div class="p-3 bg-light rounded">p-3</div>
+      </div>
+    </div>
+
+    <div class="demo-box">
+      <h2>Flexbox</h2>
+      <div class="d-flex flex-between bg-light rounded" style="padding: 1rem;">
+        <span class="bg-primary text-light rounded" style="padding: 0.5rem 1rem;">Left</span>
+        <span class="bg-success text-light rounded" style="padding: 0.5rem 1rem;">Center</span>
+        <span class="bg-danger text-light rounded" style="padding: 0.5rem 1rem;">Right</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

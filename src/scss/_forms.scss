@@ -1,0 +1,73 @@
+.form-group {
+  margin-bottom: $spacing-lg;
+  &:last-child { margin-bottom: 0; }
+}
+
+.form-label {
+  display: block;
+  margin-bottom: $spacing-sm;
+  font-weight: $font-weight-semibold;
+  color: $dark;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: $spacing-sm $spacing-md;
+  border: 1px solid #d1d5db;
+  border-radius: $radius-md;
+  font-size: $font-size-base;
+  font-family: inherit;
+  transition: all $transition-base;
+  &:focus {
+    outline: none;
+    border-color: $primary;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  }
+  &:disabled {
+    background-color: #f3f4f6;
+    cursor: not-allowed;
+  }
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.input-group {
+  display: flex;
+  input { flex: 1; }
+  .btn {
+    margin-left: -1px;
+    border-radius: 0 $radius-md $radius-md 0;
+  }
+}
+
+.input-error { border-color: $danger !important; }
+
+.form-text {
+  display: block;
+  margin-top: $spacing-xs;
+  font-size: $font-size-sm;
+  color: #6b7280;
+}
+
+.error-message {
+  color: $danger;
+  font-size: $font-size-sm;
+  margin-top: $spacing-xs;
+}
+
+.success-message {
+  color: $success;
+  font-size: $font-size-sm;
+  margin-top: $spacing-xs;
+}

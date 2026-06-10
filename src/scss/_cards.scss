@@ -1,0 +1,32 @@
+.card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-sm;
+  overflow: hidden;
+  transition: all $transition-base;
+  &:hover { box-shadow: $shadow-lg; }
+}
+
+.card-header {
+  padding: $spacing-lg;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #fafafa;
+  h1, h2, h3, h4, h5, h6 { margin: 0; }
+}
+
+.card-body { padding: $spacing-lg; }
+
+.card-footer {
+  padding: $spacing-lg;
+  border-top: 1px solid #e5e7eb;
+  background-color: #fafafa;
+}
+
+.card-text { margin: 0; }
+
+.card-title {
+  margin-bottom: $spacing-sm;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+}

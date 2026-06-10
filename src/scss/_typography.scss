@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-normal;
+  color: $dark;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+  margin-bottom: $spacing-md;
+}
+
+h1, .heading-1 { font-size: $font-size-3xl; }
+h2, .heading-2 { font-size: $font-size-2xl; }
+h3, .heading-3 { font-size: $font-size-xl; }
+h4, .heading-4 { font-size: $font-size-lg; }
+h5, .heading-5, h6, .heading-6 { font-size: $font-size-base; }
+
+p {
+  margin-bottom: $spacing-md;
+  &:last-child { margin-bottom: 0; }
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  transition: color $transition-base;
+  &:hover {
+    color: darken($primary, 10%);
+    text-decoration: underline;
+  }
+}
+
+strong, .font-bold { font-weight: $font-weight-bold; }
+em, .font-italic { font-style: italic; }
+small, .text-sm { font-size: $font-size-sm; }
+
+code, pre {
+  background-color: $light;
+  border-radius: $radius-md;
+  font-family: 'Monaco', 'Menlo', monospace;
+}
+
+code {
+  padding: $spacing-xs $spacing-sm;
+  display: inline-block;
+}
+
+pre {
+  padding: $spacing-md;
+  overflow-x: auto;
+  margin-bottom: $spacing-md;
+  code {
+    background-color: transparent;
+    padding: 0;
+    display: block;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: $spacing-xl 0;
+}

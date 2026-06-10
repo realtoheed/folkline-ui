@@ -1,0 +1,32 @@
+{
+  "name": "@realtoheedsyed/folkline-ui",
+  "version": "1.0.0",
+  "description": "Modern CSS framework with pre-built components and utility classes. Simple, fast, beautiful.",
+  "main": "dist/folkline.css",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "sass src/scss/index.scss dist/folkline.css --style=compressed && sass src/scss/index.scss dist/folkline.min.css --style=compressed",
+    "watch": "sass --watch src/scss:dist",
+    "dev": "sass --watch src/scss:dist --style=expanded",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "utility-classes",
+    "components",
+    "responsive-design"
+  ],
+  "author": "Jerry (realtoheed)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realtoheed/folkline-ui.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  }
+}
