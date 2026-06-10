@@ -1,0 +1,36 @@
+token,value,description,css_variable
+primary,#3b82f6,Primary action color,--primary
+secondary,#8b5cf6,Secondary accent,--secondary
+success,#22c55e,Success/positive states,--success
+danger,#ef4444,Danger/error states,--danger
+warning,#f59e0b,Warning/caution states,--warning
+info,#06b6d4,Informational states,--info
+light,#f8f9fa,Light background,--light
+dark,#1e293b,Dark foreground,--dark
+white,#ffffff,White color,--white
+black,#000000,Black color,--black
+radius-sm,0.25rem,Small border radius,--radius-sm
+radius-md,0.375rem,Medium border radius,--radius-md
+radius-lg,0.5rem,Default border radius,--radius-lg
+radius-xl,0.75rem,Large border radius,--radius-xl
+radius-2xl,1rem,Extra large radius,--radius-2xl
+radius-full,9999px,Full radius (pill/circle),--radius-full
+shadow-sm,0 1px 2px rgba(0 0 0 / 0.05),Small shadow,--shadow-sm
+shadow-md,0 4px 6px rgba(0 0 0 / 0.07),Medium shadow,--shadow-md
+shadow-lg,0 10px 15px rgba(0 0 0 / 0.1),Large shadow,--shadow-lg
+shadow-xl,0 20px 25px rgba(0 0 0 / 0.15),Extra large shadow,--shadow-xl
+font-sans,system-ui -apple-system sans-serif,Primary font family,--font-family
+spacing-xs,0.25rem,Extra small spacing unit,--
+spacing-sm,0.5rem,Small spacing unit,--
+spacing-md,1rem,Default spacing unit,--
+spacing-lg,1.5rem,Large spacing unit,--
+spacing-xl,2rem,Extra large spacing unit,--
+spacing-2xl,3rem,2x large spacing unit,--
+transition-fast,0.15s,Fast transition,--transition-fast
+transition-base,0.3s,Default transition,--transition-base
+transition-slow,0.5s,Slow transition,--transition-slow
+breakpoint-sm,640px,Small breakpoint,--
+breakpoint-md,768px,Medium breakpoint,--
+breakpoint-lg,1024px,Large breakpoint,--
+breakpoint-xl,1280px,Extra large breakpoint,--
+breakpoint-2xl,1536px,2x large breakpoint,--

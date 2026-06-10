@@ -1,0 +1,9 @@
+# Folkline UI — Claude Code Skill
+# Place in .claude/skills/folkline-ui/
+
+name: folkline-ui
+description: Utility-first CSS framework with 2,734 utility classes and 30+ accessible components
+version: 3.0.0
+author: realtoheed
+cdn: https://cdn.jsdelivr.net/npm/@realtoheed/folkline-ui@3/dist/folkline.min.css
+npm: @realtoheed/folkline-ui

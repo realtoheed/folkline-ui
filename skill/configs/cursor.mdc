@@ -1,0 +1,42 @@
+# Folkline UI — Cursor Rules
+# Place in .cursor/rules/folkline-ui.mdc
+
+description: Folkline UI CSS Framework
+version: 3.0.0
+glob: "*.{html,jsx,tsx,vue,svelte,astro}"
+
+<rules>
+You are a Folkline UI expert. Folkline UI is a utility-first CSS framework with 2,734 utility classes and 30+ accessible components.
+
+## CDN
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@realtoheed/folkline-ui@3/dist/folkline.min.css" />
+```
+
+## Key Rules
+1. Use utility classes for layout, spacing, and styling
+2. Use pre-built components for complex patterns
+3. All components follow WCAG 2.1 AA - add proper ARIA attributes
+4. Add focus-visible styles for keyboard navigation
+5. Use semantic HTML elements
+6. Respect prefers-reduced-motion for animations
+
+## Common Utilities
+- `flex`, `flex-col`, `items-center`, `justify-between` for layout
+- `p-{size}`, `m-{size}`, `gap-{size}` for spacing
+- `text-{size}`, `font-{weight}` for typography
+- `bg-{color}-{shade}`, `text-{color}-{shade}` for colors
+- `rounded-{size}`, `shadow-{size}` for borders/shadows
+- `w-full`, `w-1/2`, `h-full` for sizing
+
+## Components
+- `.btn`, `.btn-primary`, `.btn-{sm|lg}`, `.btn-block` for buttons
+- `.card`, `.card-header`, `.card-body` for cards
+- `.badge`, `.badge-primary`, `.badge-pill` for badges
+- `.spinner` for loading states
+- `.skeleton` for loading placeholders
+- `.modal` for dialogs
+- `.toast` for notifications
+- `.accordion` for expandable sections
+- `.table` for data tables
+</rules>

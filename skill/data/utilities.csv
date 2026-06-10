@@ -1,0 +1,149 @@
+class,type,description,example
+p-{size},spacing,Padding all sides,"p-4"
+pt-{size},spacing,Padding top,"pt-2"
+pr-{size},spacing,Padding right,"pr-2"
+pb-{size},spacing,Padding bottom,"pb-2"
+pl-{size},spacing,Padding left,"pl-2"
+px-{size},spacing,Padding horizontal,"px-4"
+py-{size},spacing,Padding vertical,"py-3"
+m-{size},spacing,Margin all sides,"m-4"
+mt-{size},spacing,Margin top,"mt-2"
+mr-{size},spacing,Margin right,"mr-2"
+mb-{size},spacing,Margin bottom,"mb-2"
+ml-{size},spacing,Margin left,"ml-2"
+mx-auto,spacing,Centered horizontally,"mx-auto"
+gap-{size},spacing,Gap between items,"gap-2"
+gap-x-{size},spacing,Column gap,"gap-x-3"
+gap-y-{size},spacing,Row gap,"gap-y-3"
+text-{size},typography,Font size,"text-lg"
+font-{weight},typography,Font weight,"font-bold"
+leading-{height},typography,Line height,"leading-tight"
+tracking-{spacing},typography,Letter spacing,"tracking-wide"
+text-left,typography,Left align text,text-left
+text-center,typography,Center align text,text-center
+text-right,typography,Right align text,text-right
+uppercase,typography,Uppercase text,uppercase
+lowercase,typography,Lowercase text,lowercase
+capitalize,typography,Capitalize text,capitalize
+underline,typography,Underline text,underline
+line-through,typography,Strikethrough text,line-through
+truncate,typography,Single-line truncation,truncate
+italic,typography,Italic text,italic
+text-{color}-{shade},colors,Text color,"text-primary-600"
+bg-{color}-{shade},colors,Background color,"bg-blue-500"
+border-{color}-{shade},colors,Border color,"border-red-300"
+flex,flexbox,Display flex,flex
+flex-row,flexbox,Horizontal flex,flex-row
+flex-col,flexbox,Vertical flex,flex-col
+flex-wrap,flexbox,Wrap items,flex-wrap
+flex-1,flexbox,Grow equally,flex-1
+flex-auto,flexbox,Auto sizing,flex-auto
+flex-none,flexbox,No grow/shrink,flex-none
+justify-start,flexbox,Justify start,justify-start
+justify-center,flexbox,Justify center,justify-center
+justify-end,flexbox,Justify end,justify-end
+justify-between,flexbox,Justify space between,justify-between
+justify-around,flexbox,Justify space around,justify-around
+justify-evenly,flexbox,Justify evenly,justify-evenly
+items-start,flexbox,Items start,items-start
+items-center,flexbox,Items center,items-center
+items-end,flexbox,Items end,items-end
+items-stretch,flexbox,Items stretch,items-stretch
+items-baseline,flexbox,Items baseline,items-baseline
+order-{n},flexbox,Flex order,"order-1"
+grid,grid,Display grid,grid
+grid-cols-{n},grid,Grid columns,"grid-cols-3"
+col-span-{n},grid,Column span,"col-span-2"
+grid-rows-{n},grid,Grid rows,"grid-rows-2"
+row-span-{n},grid,Row span,"row-span-2"
+grid-flow-row,grid,Row flow,grid-flow-row
+grid-flow-col,grid,Column flow,grid-flow-col
+w-{size},sizing,Fixed width,"w-48"
+w-full,sizing,Full width,w-full
+w-screen,sizing,Viewport width,w-screen
+w-auto,sizing,Auto width,w-auto
+w-1\/2,sizing,Half width,"w-1/2"
+w-1\/3,sizing,Third width,"w-1/3"
+w-2\/3,sizing,Two thirds,"w-2/3"
+h-{size},sizing,Fixed height,"h-12"
+h-full,sizing,Full height,h-full
+h-screen,sizing,Viewport height,h-screen
+max-w-{size},sizing,Max width,"max-w-lg"
+min-h-screen,sizing,Min height screen,min-h-screen
+border,borders,Default border,border
+border-{n},borders,"Border width 2,4,8","border-2"
+border-t,borders,Border top,border-t
+border-r,borders,Border right,border-r
+border-b,borders,Border bottom,border-b
+border-l,borders,Border left,border-l
+rounded-none,borders,No radius,rounded-none
+rounded-sm,borders,Small radius,rounded-sm
+rounded,borders,Default radius,rounded
+rounded-lg,borders,Large radius,rounded-lg
+rounded-xl,borders,Extra large radius,rounded-xl
+rounded-full,borders,Full radius (circle),rounded-full
+shadow-sm,shadows,Small shadow,shadow-sm
+shadow,shadows,Default shadow,shadow
+shadow-md,shadows,Medium shadow,shadow-md
+shadow-lg,shadows,Large shadow,shadow-lg
+shadow-xl,shadows,Extra large shadow,shadow-xl
+scale-{n},transforms,Scale transform,"scale-105"
+rotate-{deg},transforms,Rotation,"rotate-45"
+translate-x-{size},transforms,Horizontal translation,"translate-x-2"
+translate-y-{size},transforms,Vertical translation,"translate-y-2"
+blur-{size},filters,Blur filter,"blur-sm"
+brightness-{n},filters,Brightness,"brightness-125"
+grayscale,filters,Grayscale filter,grayscale
+transition,transitions,Default transition,transition
+transition-colors,transitions,Color transition,transition-colors
+transition-opacity,transitions,Opacity transition,transition-opacity
+transition-transform,transitions,Transform transition,transition-transform
+duration-{ms},transitions,Transition duration,"duration-300"
+ease-linear,transitions,Linear easing,ease-linear
+ease-in,transitions,Ease in,ease-in
+ease-out,transitions,Ease out,ease-out
+ease-in-out,transitions,Ease in-out,ease-in-out
+static,position,Static position,static
+fixed,position,Fixed position,fixed
+absolute,position,Absolute position,absolute
+relative,position,Relative position,relative
+sticky,position,Sticky position,sticky
+inset-0,position,All sides zero,inset-0
+top-{size},position,Top position,"top-4"
+right-{size},position,Right position,"right-4"
+bottom-{size},position,Bottom position,"bottom-4"
+left-{size},position,Left position,"left-4"
+z-{n},position,Z-index,"z-50"
+d-block,display,Block display,d-block
+d-inline,display,Inline display,d-inline
+d-inline-block,display,Inline-block display,d-inline-block
+d-flex,display,Flex display,d-flex
+d-grid,display,Grid display,d-grid
+d-none,display,Hidden element,d-none
+overflow-hidden,overflow,Hide overflow,overflow-hidden
+overflow-auto,overflow,Auto overflow,overflow-auto
+overflow-scroll,overflow,Scroll overflow,overflow-scroll
+visible,visibility,Visible element,visible
+invisible,visibility,Hidden but occupies space,invisible
+cursor-pointer,cursor,Pointer cursor,cursor-pointer
+cursor-not-allowed,cursor,Not allowed cursor,cursor-not-allowed
+cursor-grab,cursor,Grab cursor,cursor-grab
+select-none,selection,Prevent text selection,select-none
+opacity-{n},opacity,Opacity level,"opacity-50"
+appearance-none,misc,Remove default styling,appearance-none
+outline-none,misc,Remove outline,outline-none
+animate-fade-in,animations,Fade in animation,animate-fade-in
+animate-fade-in-up,animations,Fade in up,animate-fade-in-up
+animate-scale-in,animations,Scale in,animate-scale-in
+animate-spin,animations,Spin animation,animate-spin
+animate-pulse,animations,Pulse animation,animate-pulse
+animate-bounce,animations,Bounce animation,animate-bounce
+animate-shake,animations,Shake animation,animate-shake
+animate-fast,animations,Fast animation,animate-fast
+animate-slow,animations,Slow animation,animate-slow
+animate-delay-{n},animations,Animation delay,"animate-delay-2"
+animate-once,animations,Single iteration,animate-once
+animate-infinite,animations,Infinite loop,animate-infinite
+object-cover,object-fit,Cover object fit,object-cover
+object-contain,object-fit,Contain object fit,object-contain
+pointer-events-none,events,Disable pointer events,pointer-events-none

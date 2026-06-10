@@ -1,0 +1,35 @@
+component,selector,description,aria_pattern
+Badge,.badge,.badge-{variant} .badge-{sm|lg|pill} .badge-dot,"Inline labels for status, counts, or categories","aria-label on icon-only badges"
+Breadcrumb,.breadcrumb .breadcrumb-item,navigation breadcrumb trail,"aria-label=""Breadcrumb"", aria-current=""page"" on active"
+Spinner,.spinner .spinner-{sm|lg|xl} .spinner-{color},Loading spinner indicator,role="status" aria-label="Loading"
+Skeleton,.skeleton .skeleton-{text|title|avatar|circle|thumbnail},Content placeholder loading,aria-hidden="true" aria-busy="true"
+Progress,.progress .progress-bar .progress-bar-{color} .progress-{sm|lg},Progress bar indicator,"role=""progressbar"", aria-valuenow, aria-valuemin, aria-valuemax"
+Avatar,.avatar .avatar-{xs|sm|lg|xl|2xl} .avatar-group .avatar-status,User profile images,alt attribute on images
+Tooltip,[data-tooltip] [data-tooltip-{top|bottom|left|right}],Hover tooltips,aria-describedby for dynamic tooltips
+Modal,.modal .modal-overlay .modal-content .modal-header/body/footer,Dialog overlay,role="dialog" aria-modal="true" aria-label
+Tabs,.tabs-container .tab-label .tab-panel,Tabbed navigation,"role=""tablist"", role=""tab"", role=""tabpanel"", aria-selected"
+Accordion,.accordion .accordion-content,Collapsible sections,"aria-expanded on trigger, aria-hidden on content"
+Dropdown,.dropdown .dropdown-trigger .dropdown-menu .dropdown-item,Revealable menu,"aria-haspopup=""true"", aria-expanded, role=""menu"", role=""menuitem"""
+Toast,.toast .toast-container .toast-element .toast-{color},Notification messages,role="alert" aria-live="assertive"
+Switch,.switch .switch-{sm|lg},iOS toggle,role="switch" aria-checked
+Pagination,.pagination .pagination-item .pagination-{sm|lg},Page navigation,"aria-label=""Page navigation"", aria-current=""page"""
+List Group,.list-group .list-group-item .list-group-flush,Styled lists,aria-current on active
+Stat,.stat .stat-label .stat-value .stat-desc .stat-card,Metrics display,"Use aria-label for context if needed"
+Kbd,.kbd,Keyboard shortcuts,<kbd> element
+Separator,.separator .separator-vertical .separator-label,Visual dividers,role="separator"
+Stepper,.stepper .stepper-vertical .stepper-item .stepper-number/label/desc,Multi-step progress,"aria-current=""step"", aria-label on each step"
+Code,.code .code-block,"Inline and block code",<code> or <pre><code>
+Hero,.hero-section,Full-width hero hero,Proper heading hierarchy h1
+Table,.table .table-{striped|bordered|sm|lg} .sortable,Styled data tables,"<th scope=""col"">, <caption> for complex tables"
+Menu,.menu .menu-item .menu-title .menu-divider,Vertical navigation,"role=""menu"", role=""menuitem"", aria-current=""page"""
+Timeline,.timeline .timeline-item .timeline-dot/content/time,Vertical chronology,aria-label="Timeline"
+Rating,.rating .rating-star .rating-{sm|lg},Star ratings,"aria-label=""X of Y stars"" for each star"
+Carousel,.carousel .carousel-item,Slideshow,"role=""region"" aria-label=""Image carousel"", aria-roledescription=""carousel"""
+Upload,.upload-zone .upload-zone-icon/text/hint,Drag-and-drop upload,role="button" tabindex="0"
+FAQ,.faq-item .faq-question .faq-answer,Frequently asked questions,"<details>/<summary> element"
+Compare,.compare .compare-col .compare-title/item,Side-by-side comparison,aria-label on columns
+Button,.btn .btn-{color} .btn-outline-{color} .btn-{sm|lg} .btn-block,Styled buttons,"aria-pressed for toggle buttons"
+Card,.card .card-header/body/footer .card-title/text .card-hover .card-divider,Content containers,Semantic HTML order
+Form,.form-group .form-label .input-group .input-error .form-text,Form layout and styling,"<label> for every input, aria-describedby for errors"
+Navbar,.navbar .navbar-brand .navbar-nav .navbar-toggle,Responsive navigation,"aria-label=""Navigation"", aria-expanded on toggle"
+Alert,.alert .alert-{color} .alert-heading,Contextual messages,role="alert"

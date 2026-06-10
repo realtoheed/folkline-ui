@@ -1,0 +1,19 @@
+# Folkline UI — Continue.dev Skill
+# Place in .continue/skills/folkline-ui.json
+
+{
+  "name": "folkline-ui",
+  "description": "Folkline UI — utility-first CSS framework with 2,734 utility classes and 30+ accessible components",
+  "version": "3.0.0",
+  "cdn": "https://cdn.jsdelivr.net/npm/@realtoheed/folkline-ui@3/dist/folkline.min.css",
+  "npm": "@realtoheed/folkline-ui",
+  "rules": [
+    "Use utility classes for spacing, layout, colors, typography",
+    "Use pre-built component classes for complex UI patterns",
+    "Include proper ARIA attributes for accessibility",
+    "Add focus-visible styles for keyboard navigation",
+    "Respect prefers-reduced-motion",
+    "Use semantic HTML throughout",
+    "Framework works with React, Vue, Alpine, or plain HTML"
+  ]
+}
