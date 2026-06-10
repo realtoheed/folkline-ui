@@ -24,7 +24,8 @@
     "url": "https://github.com/realtoheed/folkline-ui.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "sass": "^1.70.0"

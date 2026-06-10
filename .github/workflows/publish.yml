@@ -1,4 +1,4 @@
-name: Build and Publish to npm
+name: Build and Publish to GitHub Packages
 
 on:
   push:
@@ -19,13 +19,14 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
-          registry-url: 'https://registry.npmjs.org/'
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: '@realtoheedsyed'
 
       - name: Install dependencies
         run: npm install
@@ -33,7 +34,7 @@ jobs:
       - name: Build CSS
         run: npm run build
 
-      - name: Publish to npm
+      - name: Publish to GitHub Packages
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
