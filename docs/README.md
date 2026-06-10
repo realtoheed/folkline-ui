@@ -7,4 +7,4 @@ A modern, lightweight CSS framework with pre-built components and utility classe
 - [Installation](INSTALLATION.md)
 - [Components](COMPONENTS.md)
 - [GitHub](https://github.com/realtoheed/folkline-ui)
-- [npm](https://www.npmjs.com/package/@realtoheedsyed/folkline-ui)
+- [npm](https://www.npmjs.com/package/@realtoheed/folkline-ui)

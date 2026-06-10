@@ -3,25 +3,25 @@
 ## npm
 
 ```bash
-npm install @realtoheedsyed/folkline-ui
+npm install @realtoheed/folkline-ui
 ```
 
 Then import in your project:
 
 ```css
-@import '~@realtoheedsyed/folkline-ui/dist/folkline.min.css';
+@import '~@realtoheed/folkline-ui/dist/folkline.min.css';
 ```
 
 Or in your HTML:
 
 ```html
-<link rel="stylesheet" href="node_modules/@realtoheedsyed/folkline-ui/dist/folkline.min.css" />
+<link rel="stylesheet" href="node_modules/@realtoheed/folkline-ui/dist/folkline.min.css" />
 ```
 
 ## CDN (Coming Soon)
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@realtoheedsyed/folkline-ui/dist/folkline.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/@realtoheed/folkline-ui/dist/folkline.min.css" />
 ```
 
 ## Download

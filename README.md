@@ -16,13 +16,13 @@ A lightweight, production-ready CSS framework with pre-built components and util
 ## Installation
 
 ```bash
-npm install @realtoheedsyed/folkline-ui
+npm install @realtoheed/folkline-ui
 ```
 
 ## Quick Start
 
 ```html
-<link rel="stylesheet" href="/node_modules/@realtoheedsyed/folkline-ui/dist/folkline.min.css" />
+<link rel="stylesheet" href="/node_modules/@realtoheed/folkline-ui/dist/folkline.min.css" />
 
 <button class="btn btn-primary">Click Me</button>
 
