@@ -1,6 +1,6 @@
 {
   "name": "@realtoheedsyed/folkline-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern CSS framework with pre-built components and utility classes. Simple, fast, beautiful.",
   "main": "dist/folkline.css",
   "types": "dist/index.d.ts",
